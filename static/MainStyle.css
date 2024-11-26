@@ -1,10 +1,150 @@
-header.navbar{
-    display: flex;
-    justify-content: space-around;
-    
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-a.logo{
-        font-family: "Bonheur Royale", serif;
-        font-weight: 400;
-        font-style: normal;
+
+body {
+    background-color: rgb(9, 33, 47);
+    margin: 0;
+}
+
+a:link {
+    color: white;
+    /* Unvisited link */
+}
+
+a:visited {
+    color: white;
+    /* Visited link */
+}
+
+a:hover {
+    color: white;
+    /* On mouse hover */
+}
+
+a:active {
+    color: white;
+    /* Active (clicked) link */
+}
+
+div.container1 {
+    padding: 8px 23px 0px 23px;
+}
+
+header.navBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+a.logo {
+    font-size: 2.2em;
+    display: flex;
+    gap: 8px;
+    text-decoration: none;
+    align-items: center;
+}
+
+span.greyColor {
+    color: gray;
+}
+
+a span.logoName {
+    font-family: "Bonheur Royale", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul.menu {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+ul.menu li a:hover {
+    color: #20ff00;
+    transform: translateY(-3px);
+    transition: all .3s ease 0s;
+
+}
+
+.decoration {
+    text-decoration: none;
+}
+
+.Container2 {
+    display: flex;
+    justify-content: center;
+    /* Centers horizontally */
+    height: 100vh;
+}
+
+div.name {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.greetDivision {
+    display: flex;
+    /* Keeps the content layout flexible inside */
+    gap: 10%;
+    padding: 7%;
+}
+
+.greetDivision div.left {
+    width: 80%;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+h3.AboutMain {
+    font-family: "Lacquer", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.greetDivision div.right {
+    width: 100%;
+    position: relative;
+    top: -62px
+}
+
+div.ContactsContainer1 {
+    display: flex;
+    gap: 30px;
+}
+
+div.ContactsContainer1 a i {
+    font-size: 40px;
+}
+
+div.ContactBtn {
+    display: flex;
+    gap: 12px;
+}
+
+button.btnCon1 {
+    padding: 12px 12px;
+    margin-top: 32px;
+    background: rgb(12, 12, 121);
+    border: none;
+    border-radius: 12px;
+    transform: 1s all;
+}
+
+button.btnCon1:hover {
+    color: #55198b;
+    transform: translateY(-3px);
+    transition: all .3s ease 0s;
 }
