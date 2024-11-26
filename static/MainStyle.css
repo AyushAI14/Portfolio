@@ -1,0 +1,10 @@
+header.navbar{
+    display: flex;
+    justify-content: space-around;
+    
+}
+a.logo{
+        font-family: "Bonheur Royale", serif;
+        font-weight: 400;
+        font-style: normal;
+}
