@@ -4,7 +4,3 @@ app = Flask(__name__,template_folder='templates',static_folder='static',static_u
 @app.route('/')
 def home():
     return render_template('Index.html')
-if __name__ == '__main__':
-    app.run(port=5000 , debug=True)
-
-    
