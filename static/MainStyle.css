@@ -105,7 +105,6 @@ div.name {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-
 }
 
 h3.AboutMain {
@@ -147,4 +146,76 @@ button.btnCon1:hover {
     color: #55198b;
     transform: translateY(-3px);
     transition: all .3s ease 0s;
+}
+
+ div.left3 {
+    width: 80%;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+  top: -126px;
+
+}
+
+ div.right3 {
+    width: 100%;
+    position: relative;
+    top: -62px
+}
+
+.size{
+    font-size: 40px;
+}
+div.ContactsContainer1 i {
+    font-size: 40px;
+}
+div.tech{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+}
+li.techClass{
+    list-style: none;
+}
+li.techClass svg{
+    width: 50px;
+    display: flex;
+}
+li.techClass p{
+    color: #868e96;
+    font-size: 10px;
+}
+
+.greetDivision3 {
+    display: flex;
+    /* Keeps the content layout flexible inside */
+    gap: 10%;
+    padding: 4%;
+}
+div.Normaltext{
+    font-family: "Lacquer", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+div.containerEducation5{
+    padding-left: 120px;
+    
+}
+div.edu{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+div.college{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+div.school{
+    display: flex;
+    gap: 50px;
+    align-items: center;
 }
