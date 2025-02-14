@@ -41,7 +41,7 @@
         <div class="greetDivision">
             <div class="left">
                 <div class="name">
-                    <h1 style="font-size: 3rem;">Hi all, I'm Ayush</h1> <span><img alt="👋" draggable="false"
+                    <h1  style="display: flex; align-items: center; gap: 15px; flex-wrap: wrap; margin-top: 20px;">Hi all, I'm Ayush</h1> <span><img alt="👋" draggable="false"
                             src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/1f44b.png"
                             style="height: 3em; width: 3em; margin: 0px 0.05em 0px 0.1em; vertical-align: -0.1em;"></span>
                 </div>
@@ -1117,43 +1117,65 @@
             </div>
         </div>
         <div class="containerProfiency4">
-            <h1 style="font-size: 3rem;">Projects</h1>
-            <!-- -------------------------=  EMPTY TO ADD LATER ====================================> -->
-             <div class="gr">
-                <img src="{{ url_for('static', filename='img/GameReco.png') }}" class="imagestyle" alt="">
-                <div class="content">
-                    <p class="ft">A game recommendation system that suggests similar games based on both genre and title, providing personalized suggestions to enhance the gaming experience.</p>
-                    <button class="bu"><a href="https://portfolioayushvishwakarma.vercel.app/" style="text-decoration: none; color: #641cd1;" target="_blank">Watch it</a></button>
+            <div class="greetDivision1">
+                <h1 style="font-size: 3rem;">Projects</h1>
+                <!-- -------------------------=  EMPTY TO ADD LATER ====================================> -->
+                <div class="card">
+                    <img src="{{ url_for('static', filename='img/GameReco.png') }}" class="imagestyle" alt="">
+                    
+                    <p class="tx">A game recommendation system that suggests similar games based on both genre and title, providing personalized suggestions to enhance the gaming experience.</p>
+                    <button class="bu"><a href="https://huggingface.co/spaces/AyushAI14/Game-recommender" style="text-decoration: none; color: #641cd1;" target="_blank">Watch it</a></button>
+                    
                 </div>
-             </div>
+            </div>
         </div>
         <div class="containerEducation5">
             <h1 style="font-size: 3rem;" id="edu">Education</h1>
             <div class="edu">
-                <div class="college">
+                <div class="college" style="display: flex; align-items: center; gap: 15px; flex-wrap: wrap;">
                     <img src="https://pbs.twimg.com/profile_images/1305376637123403777/yXDnuB-G_400x400.jpg"
-                        width="50px" alt="" style="border-radius: 42px;border-radius: 42px;
-                        width: 98px;
-                        height: 96px;">
+                        alt="" style="border-radius: 50%;
+                        width: 80px;
+                        height: 80px;
+                        min-width: 60px;">
                     <div class="content5">
-                        <h1 style="font-size: 3em;"></h1>Mahatma Jyotiba Phule Rohilkhand University</h1>
-                        <h2 style="font-size: 2rem;">Bachelor's of Computer Application</h2>
-                        <h3 style="font-size: 1.5rem;">Aug 2023 - Aug 2026</h3>
+                        <h1 style="font-size: 2rem; margin: 5px 0; font-weight: bold; line-height: 1.2;
+                            font-size: clamp(1.5rem, 5vw, 2rem);">
+                            Mahatma Jyotiba Phule Rohilkhand University
+                        </h1>
+                        <h2 style="font-size: 1.5rem; margin: 5px 0;
+                            font-size: clamp(1.2rem, 4vw, 1.5rem);">
+                            Bachelor's of Computer Application
+                        </h2>
+                        <h3 style="font-size: 1rem; margin: 5px 0; color: gray;
+                            font-size: clamp(0.9rem, 3vw, 1rem);">
+                            Aug 2023 - Aug 2026
+                        </h3>
                     </div>
                 </div>
-    
-                <div class="school">
+                
+                <div class="school" style="display: flex; align-items: center; gap: 15px; flex-wrap: wrap; margin-top: 20px;">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwkNlviT8Gc2b6iwHNBmG_nQDkQ2tLsVuDAQ&s"
-                        width="50px" alt="" style="border-radius: 42px;border-radius: 42px;
-                        width: 98px;
-                        height: 96px;">
+                        alt="" style="border-radius: 50%;
+                        width: 80px;
+                        height: 80px;
+                        min-width: 60px;">
                     <div class="content5">
-                        <h1 style="font-size: 3rem;"></h1>Confluence World School</h1>
-                        <h2 style="font-size: 2rem;">Senior Secondary School</h2>
-                        <h3 style="font-size: 1.5rem;">March 2021 - March 2023</h3>
+                        <h1 style="font-size: 2rem; margin: 5px 0; font-weight: bold; line-height: 1.2;
+                            font-size: clamp(1.5rem, 5vw, 2rem);">
+                            Confluence World School
+                        </h1>
+                        <h2 style="font-size: 1.5rem; margin: 5px 0;
+                            font-size: clamp(1.2rem, 4vw, 1.5rem);">
+                            Senior Secondary School
+                        </h2>
+                        <h3 style="font-size: 1rem; margin: 5px 0; color: gray;
+                            font-size: clamp(0.9rem, 3vw, 1rem);">
+                            March 2021 - March 2023
+                        </h3>
                     </div>
-            
-            </div>
+                </div>
+                
             </div>
         </div>
         <div class="containerExperience5">
@@ -1165,18 +1187,34 @@
         <div class="containerContactMe7">
             <div class="greetDivision">
             <div class="left">
-                <div class="name">
-                    <h1 style="font-size: 3rem;" id="Contact">Contact Me</h1> <span><img alt="☎️" draggable="false" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/260e.png" style="height: 4em; width: 4em; margin: 0px 0.05em 0px 3.1em; vertical-align: -0.1em;"></span>
+                <div class="name" style="display: flex; align-items: center; gap: 15px; flex-wrap: wrap; justify-content: center; text-align: center;">
+                    <h1 id="Contact" style="font-size: clamp(2rem, 5vw, 3rem); margin: 0;">Contact Me</h1>
+                    <span>
+                        <img alt="☎️" draggable="false" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/260e.png" 
+                            style="height: clamp(2em, 5vw, 4em); width: clamp(2em, 5vw, 4em); margin: 0px 0.05em 0px 1em; vertical-align: -0.1em;">
+                    </span>
                 </div>
-                <h3 class="AboutMain">Discuss a project or just want to say hi? My Inbox is open for all.</h3>
-                <h1 style="font-size: 3rem;">Ayushaiml14@gmail.com</h1>
-                <div class="ContactsContainer1">
-                    <a href="https://github.com/AyushAI14" target="_blank"><i
-                            class="fa-brands fa-square-github"></i></a>
-                    <a href="https://www.linkedin.com/in/ayush-vishwakarma-a2450a28b/" target="_blank"><i
-                            class="fa-brands fa-linkedin"></i></a>
-                    <a href="mailto:ayushaiml14@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                
+                <h3 class="AboutMain" style="font-size: clamp(1rem, 3vw, 1.5rem); text-align: center; margin-top: 10px;">
+                    Discuss a project or just want to say hi? My Inbox is open for all.
+                </h3>
+                
+                <h1 style="font-size: clamp(1.5rem, 5vw, 3rem); text-align: center; margin: 10px 0;">
+                    Ayushaiml14@gmail.com
+                </h1>
+                
+                <div class="ContactsContainer1" style="display: flex; justify-content: center; gap: 20px; margin-top: 10px; flex-wrap: wrap;">
+                    <a href="https://github.com/AyushAI14" target="_blank" style="font-size: clamp(1.5rem, 4vw, 2.5rem);">
+                        <i class="fa-brands fa-square-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ayush-vishwakarma-a2450a28b/" target="_blank" style="font-size: clamp(1.5rem, 4vw, 2.5rem);">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:ayushaiml14@gmail.com" target="_blank" style="font-size: clamp(1.5rem, 4vw, 2.5rem);">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
                 </div>
+                
             </div>
             <div class="right">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080" width="1920" height="1080" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;" preserveAspectRatio="xMidYMid meet"><defs><clipPath id="__lottie_element_179"><rect width="1920" height="1080" x="0" y="0"></rect></clipPath></defs><g clip-path="url(#__lottie_element_179)"><g style="display: block;" transform="matrix(0.9197385311126709,0,0,0.9197385311126709,818.5540771484375,845.3591918945312)" opacity="1"><g opacity="1" transform="matrix(1,0,0,1,153.68600463867188,22.08099937438965)"><path fill="rgb(226,210,255)" fill-opacity="1" d=" M153.43600463867188,-0.0010000000474974513 C153.43600463867188,12.055999755859375 84.74099731445312,21.83099937438965 -0.0010000000474974513,21.83099937438965 C-84.74099731445312,21.83099937438965 -153.43600463867188,12.055999755859375 -153.43600463867188,-0.0010000000474974513 C-153.43600463867188,-12.057999610900879 -84.74099731445312,-21.83099937438965 -0.0010000000474974513,-21.83099937438965 C84.74099731445312,-21.83099937438965 153.43600463867188,-12.057999610900879 153.43600463867188,-0.0010000000474974513z"></path></g></g><g style="display: block;" transform="matrix(1,0,0,1,1182.1549072265625,285.54541015625)" opacity="1"><g opacity="1" transform="matrix(1,0,0,1,67.09700012207031,67.09700012207031)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="10" stroke="rgb(226,210,255)" stroke-opacity="1" stroke-width="17.102" d=" M24.343000411987305,0 C24.343000411987305,13.444000244140625 13.444000244140625,24.341999053955078 0,24.341999053955078 C-13.444000244140625,24.341999053955078 -24.343000411987305,13.444000244140625 -24.343000411987305,0 C-24.343000411987305,-13.444000244140625 -13.444000244140625,-24.341999053955078 0,-24.341999053955078 C13.444000244140625,-24.341999053955078 24.343000411987305,-13.444000244140625 24.343000411987305,0z"></path></g></g><g style="display: block;" transform="matrix(1,0,0,1,1249.0040283203125,594.216796875)" opacity="1"><g opacity="1" transform="matrix(1,0,0,1,8.723999977111816,33.15999984741211)"><path fill="rgb(226,210,255)" fill-opacity="1" d=" M-8.473999977111816,-32.90999984741211 C-8.473999977111816,-32.90999984741211 8.473999977111816,-32.90999984741211 8.473999977111816,-32.90999984741211 C8.473999977111816,-32.90999984741211 8.473999977111816,32.90999984741211 8.473999977111816,32.90999984741211 C8.473999977111816,32.90999984741211 -8.473999977111816,32.90999984741211 -8.473999977111816,32.90999984741211 C-8.473999977111816,32.90999984741211 -8.473999977111816,-32.90999984741211 -8.473999977111816,-32.90999984741211z"></path></g></g><g style="display: block;" transform="matrix(1,0,0,1,1224.5679931640625,618.7672729492188)" opacity="1"><g opacity="1" transform="matrix(1,0,0,1,33.15999984741211,8.725000381469727)"><path fill="rgb(226,210,255)" fill-opacity="1" d=" M32.90999984741211,8.475000381469727 C32.90999984741211,8.475000381469727 -32.90999984741211,8.475000381469727 -32.90999984741211,8.475000381469727 C-32.90999984741211,8.475000381469727 -32.90999984741211,-8.475000381469727 -32.90999984741211,-8.475000381469727 C-32.90999984741211,-8.475000381469727 32.90999984741211,-8.475000381469727 32.90999984741211,-8.475000381469727 C32.90999984741211,-8.475000381469727 32.90999984741211,8.475000381469727 32.90999984741211,8.475000381469727z"></path></g></g><g style="display: block;" transform="matrix(1,0,0,1,608.9150390625,676.32958984375)" opacity="1"><g opacity="1" transform="matrix(1,0,0,1,57.805999755859375,57.805999755859375)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="10" stroke="rgb(226,210,255)" stroke-opacity="1" stroke-width="17.102" d=" M15.050999641418457,0 C15.050999641418457,8.312999725341797 8.312999725341797,15.050999641418457 0,15.050999641418457 C-8.312000274658203,15.050999641418457 -15.050999641418457,8.312999725341797 -15.050999641418457,0 C-15.050999641418457,-8.312999725341797 -8.312000274658203,-15.050999641418457 0,-15.050999641418457 C8.312999725341797,-15.050999641418457 15.050999641418457,-8.312999725341797 15.050999641418457,0z"></path></g></g><g style="display: block;" transform="matrix(1,0,0,1,699.35302734375,189.66757202148438)" opacity="1"><g opacity="1" transform="matrix(1,0,0,1,76.3499984741211,61.29600143432617)"><path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="10" stroke="rgb(226,210,255)" stroke-opacity="1" stroke-width="17.102" d=" M-33.595001220703125,0 C-33.595001220703125,0 -17.27400016784668,-18.541000366210938 1.2669999599456787,0 C19.808000564575195,18.541000366210938 33.595001220703125,0 33.595001220703125,0"></path></g></g><g style="display: block;" transform="matrix(1,0,0,1,928.2780151367188,494.2882080078125)" opacity="1"><g opacity="1" transform="matrix(1,0,0,1,115.30000305175781,100.94200134277344)"><path fill="rgb(226,210,255)" fill-opacity="1" d=" M115.05000305175781,-100.69200134277344 C115.05000305175781,-100.69200134277344 115.05000305175781,77.01499938964844 115.05000305175781,77.01499938964844 C115.05000305175781,77.01499938964844 91.37100219726562,100.69200134277344 91.37100219726562,100.69200134277344 C91.37100219726562,100.69200134277344 -115.05000305175781,100.69200134277344 -115.05000305175781,100.69200134277344 C-115.05000305175781,100.69200134277344 108.86900329589844,85.29100036621094 115.05000305175781,-100.69200134277344z"></path></g></g><g style="display: block;" transform="matrix(1,0,0,1,749.1380004882812,386.4022216796875)" opacity="1"><g opacity="1" transform="matrix(1,0,0,1,210.76699829101562,158.13800048828125)"><path fill="rgb(102,0,255)" fill-opacity="1" d=" M171.0449981689453,-157.88800048828125 C171.0449981689453,-157.88800048828125 -171.04400634765625,-157.88800048828125 -171.04400634765625,-157.88800048828125 C-192.81100463867188,-157.88800048828125 -210.51699829101562,-140.1820068359375 -210.51699829101562,-118.41600036621094 C-210.51699829101562,-118.41600036621094 -210.51699829101562,118.41600036621094 -210.51699829101562,118.41600036621094 C-210.51699829101562,140.1820068359375 -192.81100463867188,157.88800048828125 -171.04400634765625,157.88800048828125 C-171.04400634765625,157.88800048828125 171.0449981689453,157.88800048828125 171.0449981689453,157.88800048828125 C192.81199645996094,157.88800048828125 210.51699829101562,140.1820068359375 210.51699829101562,118.41600036621094 C210.51699829101562,118.41600036621094 210.51699829101562,-118.41600036621094 210.51699829101562,-118.41600036621094 C210.51699829101562,-140.1820068359375 192.81199645996094,-157.88800048828125 171.0449981689453,-157.88800048828125z M171.0449981689453,-131.572998046875 C172.83299255371094,-131.572998046875 174.5330047607422,-131.20199584960938 176.08799743652344,-130.55499267578125 C176.08799743652344,-130.55499267578125 0,22.06100082397461 0,22.06100082397461 C0,22.06100082397461 -176.08799743652344,-130.55499267578125 -176.08799743652344,-130.55499267578125 C-174.53399658203125,-131.2010040283203 -172.83299255371094,-131.572998046875 -171.0449981689453,-131.572998046875 C-171.0449981689453,-131.572998046875 171.0449981689453,-131.572998046875 171.0449981689453,-131.572998046875z M171.0449981689453,131.572998046875 C171.0449981689453,131.572998046875 -171.04400634765625,131.572998046875 -171.04400634765625,131.572998046875 C-178.3040008544922,131.572998046875 -184.20199584960938,125.6760025024414 -184.20199584960938,118.41500091552734 C-184.20199584960938,118.41500091552734 -184.20199584960938,-102.75299835205078 -184.20199584960938,-102.75299835205078 C-184.20199584960938,-102.75299835205078 -8.621999740600586,49.41699981689453 -8.621999740600586,49.41699981689453 C-6.142000198364258,51.5620002746582 -3.071000099182129,52.62900161743164 0,52.62900161743164 C3.071000099182129,52.62900161743164 6.142000198364258,51.5629997253418 8.621999740600586,49.41699981689453 C8.621999740600586,49.41699981689453 184.2030029296875,-102.75299835205078 184.2030029296875,-102.75299835205078 C184.2030029296875,-102.75299835205078 184.2030029296875,118.41600036621094 184.2030029296875,118.41600036621094 C184.20199584960938,125.6760025024414 178.30499267578125,131.572998046875 171.0449981689453,131.572998046875z"></path></g></g></g></svg>

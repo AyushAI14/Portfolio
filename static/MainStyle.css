@@ -3,13 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html {
     scroll-behavior: smooth;
-  }
-  
+}
+
 body {
-    background-color: rgb(36, 41, 46);
+    /* background-color: rgb(36, 41, 46); */
     margin: 0;
+    color: white;
+    background: linear-gradient(90deg, #0b000d, #ff0055, #45007d, #0b000d);
+
 }
 
 a:link {
@@ -103,6 +107,13 @@ div.name {
     padding: 7%;
 }
 
+.greetDivision1 {
+
+    /* Keeps the content layout flexible inside */
+    gap: 10%;
+    padding: 7%;
+}
+
 .greetDivision div.left {
     width: 80%;
     font-family: "Jaro", sans-serif;
@@ -152,43 +163,48 @@ button.btnCon1:hover {
     transition: all .3s ease 0s;
 }
 
- div.left3 {
+div.left3 {
     width: 80%;
     font-family: "Jaro", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     position: relative;
-  top: -126px;
+    top: -126px;
 
 }
 
- div.right3 {
+div.right3 {
     width: 100%;
     position: relative;
     top: -62px
 }
 
-.size{
+.size {
     font-size: 40px;
 }
+
 div.ContactsContainer1 i {
     font-size: 40px;
 }
-div.tech{
+
+div.tech {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
-    
+
 }
-li.techClass{
+
+li.techClass {
     list-style: none;
 }
-li.techClass svg{
+
+li.techClass svg {
     width: 50px;
     display: flex;
 }
-li.techClass p{
+
+li.techClass p {
     color: #868e96;
     font-size: 10px;
 }
@@ -199,16 +215,19 @@ li.techClass p{
     gap: 10%;
     padding: 4%;
 }
-div.Normaltext{
+
+div.Normaltext {
     font-family: "Lacquer", system-ui;
     font-weight: 400;
     font-style: normal;
 }
-div.containerEducation5{
+
+div.containerEducation5 {
     padding-left: 120px;
-    
+
 }
-div.edu{
+
+div.edu {
     display: flex;
     gap: 50px;
     flex-direction: column;
@@ -217,56 +236,61 @@ div.edu{
     font-weight: 300;
     font-style: normal;
     font-size: 40px;
-    
+
 }
-div.college{
+
+div.college {
     display: flex;
     gap: 50px;
     align-items: center;
 }
-div.school{
+
+div.school {
     display: flex;
     gap: 50px;
     align-items: center;
 }
 
 /* projects---------- */
-.containerProfiency4{
-padding-left:120px ;
-}
 
-.ft{
-     font-family: "Jaro", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 22px;
-}
-.bu{
-    padding: 12px 12px 12px 12px;
-    border: none;
-    border-radius: 12px;
-    background-color: #20ff00;
-    width: 130px;
-    
-}
-.content{
+div.card {
     display: flex;
     flex-direction: column;
-    gap: 50px;
-    width: 30%;
-}
-.imagestyle{
-    width: 500px;
-    border: 3px solid white;
-    border-radius: 12px;
-}
-.gr{
-    display: flex;
-    gap: 120px;
-    margin: 12px 12px 12px 12px;
+    justify-content: center;
+    width: 20vw;
+    margin: 5px 5px 5px 5px;
+    padding: 7px 0px 7px 33px;
     border: 1px solid gray;
     border-radius: 12px;
-    width: 80%;
-    padding: 12px 12px 12px 12px;
+    /* box-sizing: border-box; */
+    height: 45vh;
+}
+
+/* .long-text {
+    overflow-wrap: break-word;
+    
+    white-space: normal;
+} */
+
+.imagestyle {
+    width: 18vw;
+    border-radius: 2px;
+    /* margin-left: 25px; */
+    height: 22vh;
+}
+
+.bu {
+    margin-top: 22px;
+
+    padding: 2px 12px 4px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4f0;
+    width: 20%;
+}
+
+.tx {
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
 }
