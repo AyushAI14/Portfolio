@@ -294,3 +294,27 @@ div.card {
     font-optical-sizing: auto;
     font-weight: 400;
 }
+@media (max-width: 1024px) {
+    .bu {
+    width: 50%;}
+    
+}
+@media (max-width: 768px) {
+    div.card{
+        width: 26vw;
+    }
+    .imagestyle{
+        width: 23vw;
+        border-radius: 2px;
+    /* margin-left: 25px; */
+        height: 15vh;
+    }
+    div.right svg{
+        position: relative;
+        top: -88px;
+    }
+    div.bottom{
+        top: 12px;
+        position: relative;
+    }
+}
